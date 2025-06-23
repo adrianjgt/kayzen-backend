@@ -1,0 +1,24 @@
+# Ignorar directorios de entornos virtuales
+.venv/
+env/
+venv/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración local (si los tienes)
+.env
+.flaskenv
+*.sqlite3
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos de IDE (si usas VS Code, por ejemplo)
+.vscode/
+
+# Ignorar directorios de paquetes
+/site-packages
+/dist
+/build
